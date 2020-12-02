@@ -1,89 +1,182 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Page Not Found</title>
-  <style>
-    * {
-      margin: 0;
-      padding: 0;
-    }
-    body {
-      display: flex;
-      flex-direction: column;
-      height: 100vh;
-      text-align: center;
-    }
-    .box {
-      flex: 1;
-      display: flex;
-      justify-content: center;
-      flex-direction: column;
-    }
-    .number {
-      font-size: 80px;
-      color: #666;
-      font-weight: bold;
-    }
-    .text {
-      font-size: 14px;
-      margin: 24px;
-      color: #333;
-    }
-    .btn-container {
-      display: flex;
-      justify-content: center;
-    }
-    .btn {
-      padding: 8px 24px;
-      display: inline-block;
-      text-decoration: none;
-      background: #fff;
-      border: 2px solid #efefef;
-      color: #333;
-      margin: 24px;
-      border-radius: 20px;
-      cursor: pointer;
-      display: flex;
-      align-items: center;
-    }
-    .footer {
-      padding: 16px;
-      border-top: 1px solid #efefef;
-      color: #777;
-      font-weight: lighter;
-    }
-    .footer a {
-      text-decoration: none;
-      font-weight: bold;
-      color: #000;
-    }
-  </style>
-</head>
-<body>
-  <div class="box">
-    <div class="number">404</div>
-    <div class="text">
-      Page not found. How did you get here?
-    </div>
-    <div class="btn-container">
-      <a class="btn" id="back">
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="16" height="16" style="margin-right: 8px;">
-          <path fill="none" d="M0 0h24v24H0z"/>
-          <path d="M5.828 7l2.536 2.536L6.95 10.95 2 6l4.95-4.95 1.414 1.414L5.828 5H13a8 8 0 1 1 0 16H4v-2h9a6 6 0 1 0 0-12H5.828z"/>
-        </svg>
-        Back
+<html>
+  <head>
+    <meta charset="utf-8" >
+
+<title>Page Not Found | Daniel13265&#39;s Blog</title>
+
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+<link rel="shortcut icon" href="https://daniel13265.github.io/favicon.ico?v=1606897526390">
+<link rel="stylesheet" href="https://daniel13265.github.io/styles/main.css">
+
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.11.1/dist/katex.min.css">
+
+
+
+
+<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+
+
+
+    <meta name="description" content="Hut of a Namelsess OIer">
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+      }
+      body {
+        display: flex;
+        flex-direction: column;
+        height: 100px;
+        text-align: center;
+      }
+      .box {
+        flex: 1;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+      }
+      .number {
+        font-size: 80px;
+        color: #666;
+        font-weight: bold;
+      }
+      .text {
+        font-size: 14px;
+        margin: 24px;
+        color: #333;
+      }
+      .btn-container {
+        display: flex;
+        justify-content: center;
+      }
+      .btn {
+        padding: 8px 24px;
+        display: inline-block;
+        text-decoration: none;
+        background: #fff;
+        border: 2px solid #efefef;
+        color: #333;
+        margin: 24px;
+        border-radius: 20px;
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="app" class="main">
+
+      <div class="sidebar" :class="{ 'full-height': menuVisible }">
+  <div class="top-container" data-aos="fade-right">
+    <div class="top-header-container">
+      <a class="site-title-container" href="https://daniel13265.github.io">
+        <img src="https://daniel13265.github.io/images/avatar.png?v=1606897526390" class="site-logo">
+        <h1 class="site-title">Daniel13265&#39;s Blog</h1>
       </a>
+      <div class="menu-btn" @click="menuVisible = !menuVisible">
+        <div class="line"></div>
+      </div>
+    </div>
+    <div class="site-description">
+      Hut of a Namelsess OIer
+    </div>
+    <div>
+      
+        
+          <a href="/post/about" class="site-nav">
+            About
+          </a>
+        
+      
+        
+          <a href="/archives" class="site-nav">
+            Archives
+          </a>
+        
+      
+        
+          <a href="/tags" class="site-nav">
+            Tags
+          </a>
+        
+      
     </div>
   </div>
-  <!-- <footer class="footer">
-    Powered by <a href="https://gridea.dev" target="_blank">Gridea</a>
-  </footer> -->
+  <div class="bottom-container" data-aos="flip-up" data-aos-offset="0">
+    <div class="social-container">
+      
+        
+          <a class="social-link" href="https://github.com/daniel13265" target="_blank">
+            <i class="fab fa-github"></i>
+          </a>
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    </div>
+    <div class="site-footer">
+      Powered by <a href="https://github.com/getgridea/gridea">Gridea</a>.
+    </div>
+  </div>
+</div>
+
+
+      <div class="main-container">
+        <div class="content-container" data-aos="fade-up">
+          <div class="box">
+            <div class="number">404</div>
+            <div class="text">
+              Page not found. How did you get here?
+            </div>
+            <div class="btn-container">
+              <a class="btn" id="back">
+                Back
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script type="application/javascript">
+
+AOS.init();
+
+var app = new Vue({
+  el: '#app',
+  data: {
+    menuVisible: false,
+  },
+})
+
+</script>
+
+
+  <script src="https://cdn.bootcss.com/highlight.js/9.12.0/highlight.min.js"></script>
   <script>
-    var back = document.getElementById('back')
-    back.onclick = function() { console.log('run...'); history.back() }
+    hljs.initHighlightingOnLoad()
   </script>
-</body>
+
+
+
+
+
+    <script>
+      var back = document.getElementById('back')
+      back.onclick = function() { console.log('run...'); history.back() }
+    </script>
+  </body>
 </html>

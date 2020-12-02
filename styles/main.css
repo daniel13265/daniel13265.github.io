@@ -325,7 +325,7 @@ a {
   background-color: #7c8280;
   background-size: cover;
   background-position: center;
-  background-image: url('../media/images/sidebar-bg.jpg');
+  background-image: url('../media/images/idea.jpg');
   display: flex;
   flex-direction: column;
   overflow-y: scroll;
@@ -347,7 +347,7 @@ a {
 }
 .sidebar .top-container .site-title {
   font-size: 24px;
-  padding: 32px 0;
+  padding: 32px 0 0;
   color: #dee2e6;
 }
 .sidebar .top-container .site-nav {
@@ -360,13 +360,16 @@ a {
 .sidebar .top-container .site-nav:hover {
   color: #f8f9fa;
 }
+.sidebar .top-container .site-description {
+  padding: 16px 0 16px;
+  color: #dee2e6;
+  font-size: 16px;
+  font-style: italic;
+}
 .sidebar .bottom-container {
   padding: 24px 16px;
   color: #dee2e6;
   font-size: 12px;
-}
-.sidebar .bottom-container .site-description {
-  padding: 16px 0;
 }
 .sidebar .bottom-container a {
   color: #fff;
@@ -753,10 +756,16 @@ a {
     transform: translateY(0px);
   }
 }
+.social-container {
+  text-align: center;
+}
 .social-container .social-link {
   color: #dee2e6;
   font-size: 16px;
   margin: 4px 8px;
+}
+.site-footer {
+  margin: 8px 0 0;
 }
 
       .sidebar {

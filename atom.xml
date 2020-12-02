@@ -2,10 +2,11 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://daniel13265.github.io</id>
     <title>Daniel13265&apos;s Blog</title>
-    <updated>2020-12-02T06:57:24.150Z</updated>
+    <updated>2020-12-02T08:02:39.767Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://daniel13265.github.io"/>
     <link rel="self" href="https://daniel13265.github.io/atom.xml"/>
+    <subtitle>Hut of a Namelsess OIer</subtitle>
     <logo>https://daniel13265.github.io/images/avatar.png</logo>
     <icon>https://daniel13265.github.io/favicon.ico</icon>
     <rights>All rights reserved 2020, Daniel13265&apos;s Blog</rights>

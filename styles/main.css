@@ -602,7 +602,8 @@ a {
 }
 .archives-title,
 .tag-list-title,
-.current-tag {
+.current-tag,
+.page-not-found-title {
   color: #495057;
   padding-bottom: 48px;
   font-size: 32px;
@@ -765,6 +766,7 @@ a {
   margin: 4px 8px;
 }
 .site-footer {
+  text-align: center;
   margin: 8px 0 0;
 }
 

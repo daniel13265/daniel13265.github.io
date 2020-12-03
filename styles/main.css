@@ -442,7 +442,6 @@ a {
   border: 1px solid #dee2e6;
 }
 .post-detail {
-  max-width: 720px;
   margin: 0 auto;
 }
 .post-detail .feature-container {

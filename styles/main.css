@@ -354,7 +354,7 @@ a {
   display: block;
   padding: 8px 16px;
   margin: 16px 0;
-  color: #dee2e6;
+  color: #ced4da;
   transition: all 0.3s;
 }
 .sidebar .top-container .site-nav:hover {
@@ -586,26 +586,46 @@ a {
   color: #495057;
   transform: translateY(-3px);
 }
-.next-post {
+.other-posts {
   border-top: 1px solid #ced4da;
   border-bottom: 1px solid #ced4da;
   padding: 24px 0;
   margin: 32px 0;
 }
-.next-post .post-title {
-  font-size: 24px;
+.other-posts .post-title {
+  padding: 18px;
+  font-size: 18px;
 }
-.next-post .next {
-  color: #ced4da;
-  margin-bottom: 16px;
+.other-posts .post-title a {
+  color: #495057;
+  transition: all 0.3s;
+}
+.other-posts .post-title a:hover {
+  color: #868e96;
+}
+.other-posts .next-post {
+  text-align: right;
+}
+.other-posts .prev-post {
+  text-align: left;
 }
 .archives-title,
-.tag-list-title,
-.current-tag,
-.page-not-found-title {
+.tag-list-title {
   color: #495057;
   padding-bottom: 48px;
   font-size: 32px;
+}
+.current-tag {
+  color: #495057;
+  padding-bottom: 48px;
+  font-size: 32px;
+}
+.current-tag a {
+  color: #adb5bd;
+  transition: all 0.3s;
+}
+.current-tag a:hover {
+  color: #868e96;
 }
 .archives-container {
   padding-bottom: 32px;
@@ -761,8 +781,12 @@ a {
 }
 .social-container .social-link {
   color: #dee2e6;
-  font-size: 16px;
+  font-size: 24px;
   margin: 4px 8px;
+  transition: all 0.3s;
+}
+.social-container .social-link:hover {
+  color: #dee2e6;
 }
 .site-footer {
   text-align: center;

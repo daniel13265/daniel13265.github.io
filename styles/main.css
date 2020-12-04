@@ -44,7 +44,7 @@ body {
  * Improve consistency of default fonts in all browsers. (https://github.com/sindresorhus/modern-normalize/issues/3)
  */
 body {
-  font-family: -apple-system, BlinkMacSystemFont, Helvetica, 'Segoe UI', Roboto, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
+  font-family: -apple-system, BlinkMacSystemFont, Ubuntu, Roboto, Helvetica, 'Segoe UI', Arial, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
 }
 /* Grouping content
    ========================================================================== */
@@ -342,7 +342,7 @@ a {
   width: 80px;
   height: 80px;
   border-radius: 50%;
-  border: 2px solid #F1F3F5;
+  border: 2px solid #f8f9fa;
   box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16);
 }
 .sidebar .top-container .site-title {
@@ -372,7 +372,7 @@ a {
   font-size: 12px;
 }
 .sidebar .bottom-container a {
-  color: #fff;
+  color: #f8f9fa;
 }
 .main-container {
   margin-left: 320px;
@@ -381,6 +381,38 @@ a {
   max-width: 1064px;
   margin: 0 auto;
   padding: 48px 32px;
+}
+.btn-container {
+  display: flex;
+  justify-content: center;
+}
+.btn {
+  padding: 8px 24px;
+  display: inline-block;
+  text-decoration: none;
+  background: #f8f9fa;
+  border: 2px solid #e9ecef;
+  color: #343a40;
+  margin: 24px;
+  border-radius: 20px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  transition: all 0.3s;
+}
+.btn:hover {
+  background: #f1f3f5;
+  color: #495057;
+  transform: translateY(-3px);
+}
+.page-not-found-number {
+  font-size: 120px;
+  font-weight: bold;
+  text-align: center;
+}
+.page-not-found-text {
+  margin: 24px;
+  text-align: center;
 }
 .post-item {
   display: flex;
@@ -630,12 +662,22 @@ a {
 .archives-container {
   padding-bottom: 32px;
 }
-.archives-container .year {
+.archives-container .year,
+.archives-container .tag-title {
   font-size: 16px;
-  padding-bottom: 16px;
+  padding: 24px 0 14px;
   border-bottom: 1px solid #ced4da;
   margin: 16px 0;
+  color: #343a40;
+}
+.archives-container .year a,
+.archives-container .tag-title a {
   color: #868e96;
+  transition: all 0.3s;
+}
+.archives-container .year a:hover,
+.archives-container .tag-title a:hover {
+  color: #495057;
 }
 .archives-container .post {
   padding-bottom: 16px;

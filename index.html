@@ -8,7 +8,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
-<link rel="shortcut icon" href="https://daniel13265.github.io/favicon.ico?v=1607049736750">
+<link rel="shortcut icon" href="https://daniel13265.github.io/favicon.ico?v=1607073128425">
 <link rel="stylesheet" href="https://daniel13265.github.io/styles/main.css">
 
 
@@ -32,7 +32,7 @@
   <!-- <div class="top-container" data-aos="fade-right"> -->
     <div class="top-header-container">
       <a class="site-title-container" href="https://daniel13265.github.io">
-        <img src="https://daniel13265.github.io/images/avatar.png?v=1607049736750" class="site-logo">
+        <img src="https://daniel13265.github.io/images/avatar.png?v=1607073128425" class="site-logo">
         <h1 class="site-title">Daniel13265&#39;s Blog</h1>
       </a>
       <div class="menu-btn" @click="menuVisible = !menuVisible">
@@ -51,7 +51,7 @@
         
       
         
-          <a href="/post/about" class="site-nav">
+          <a href="/about" class="site-nav">
             About
           </a>
         
@@ -65,6 +65,12 @@
         
           <a href="/tags" class="site-nav">
             Tags
+          </a>
+        
+      
+        
+          <a href="/friends" class="site-nav">
+            Friends
           </a>
         
       
@@ -104,10 +110,10 @@
                 <a href="https://daniel13265.github.io/post/mivik-newbie-2020-and-chinos-contest-2020-solution-coin/">
                   <h2 class="post-title">『「Mivik 的萌新赛 2020」&amp;「Chino 的比赛 2020」』题解【Mivik 的游戏】</h2>
                 </a>
-                <div class="post-date">
+                <div class="post-date" data-aos="fade-in" data-aos-delay="150">
                   2020-11-29
                 </div>
-                <div class="post-abstract">
+                <div class="post-abstract" data-aos="fade-in" data-aos-delay="150">
                   <p>设当前反面朝上硬币数为 <span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>k</mi></mrow><annotation encoding="application/x-tex">k</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.69444em;vertical-align:0em;"></span><span class="mord mathdefault" style="margin-right:0.03148em;">k</span></span></span></span> ，将所有反面的位置 <span class="katex"><span class="katex-mathml"><math><semantics><mrow><msub><mi>p</mi><mn>1</mn></msub><mo separator="true">,</mo><msub><mi>p</mi><mn>2</mn></msub><mo separator="true">,</mo><mo>…</mo><mo separator="true">,</mo><msub><mi>p</mi><mi>k</mi></msub></mrow><annotation encoding="application/x-tex">p_1,p_2,\dots,p_k</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.625em;vertical-align:-0.19444em;"></span><span class="mord"><span class="mord mathdefault">p</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.30110799999999993em;"><span style="top:-2.5500000000000003em;margin-left:0em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">1</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span><span class="mpunct">,</span><span class="mspace" style="margin-right:0.16666666666666666em;"></span><span class="mord"><span class="mord mathdefault">p</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.30110799999999993em;"><span style="top:-2.5500000000000003em;margin-left:0em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">2</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span><span class="mpunct">,</span><span class="mspace" style="margin-right:0.16666666666666666em;"></span><span class="minner">…</span><span class="mspace" style="margin-right:0.16666666666666666em;"></span><span class="mpunct">,</span><span class="mspace" style="margin-right:0.16666666666666666em;"></span><span class="mord"><span class="mord mathdefault">p</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.33610799999999996em;"><span style="top:-2.5500000000000003em;margin-left:0em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathdefault mtight" style="margin-right:0.03148em;">k</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span></span></span></span> 从小到大排序。</p>
 
                 </div>
@@ -120,10 +126,10 @@
                 <a href="https://daniel13265.github.io/post/mivik-newbie-2020-and-chinos-contest-2020-solution-segmenttree/">
                   <h2 class="post-title">『「Mivik 的萌新赛 2020」&amp;「Chino 的比赛 2020」』题解【Chino 与线段树】</h2>
                 </a>
-                <div class="post-date">
+                <div class="post-date" data-aos="fade-in" data-aos-delay="150">
                   2020-11-29
                 </div>
-                <div class="post-abstract">
+                <div class="post-abstract" data-aos="fade-in" data-aos-delay="150">
                   <p>设 <span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>d</mi><mrow><mo fence="true">(</mo><mi>n</mi><mo fence="true">)</mo></mrow></mrow><annotation encoding="application/x-tex">d\left(n\right)</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mord mathdefault">d</span><span class="mspace" style="margin-right:0.16666666666666666em;"></span><span class="minner"><span class="mopen delimcenter" style="top:0em;">(</span><span class="mord mathdefault">n</span><span class="mclose delimcenter" style="top:0em;">)</span></span></span></span></span> 表示一棵 <span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>n</mi></mrow><annotation encoding="application/x-tex">n</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.43056em;vertical-align:0em;"></span><span class="mord mathdefault">n</span></span></span></span> 个叶子结点的线段树的深度，那么有 <span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>d</mi><mrow><mo fence="true">(</mo><mn>1</mn><mo fence="true">)</mo></mrow><mo>=</mo><mn>1</mn></mrow><annotation encoding="application/x-tex">d\left(1\right)=1</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mord mathdefault">d</span><span class="mspace" style="margin-right:0.16666666666666666em;"></span><span class="minner"><span class="mopen delimcenter" style="top:0em;">(</span><span class="mord">1</span><span class="mclose delimcenter" style="top:0em;">)</span></span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span></span><span class="base"><span class="strut" style="height:0.64444em;vertical-align:0em;"></span><span class="mord">1</span></span></span></span> 与</p>
 
                 </div>
@@ -136,10 +142,10 @@
                 <a href="https://daniel13265.github.io/post/mivik-newbie-2020-and-chinos-contest-2020-solution-shuffle/">
                   <h2 class="post-title">『「Mivik 的萌新赛 2020」&amp;「Chino 的比赛 2020」』题解【Chino 的比赛】</h2>
                 </a>
-                <div class="post-date">
+                <div class="post-date" data-aos="fade-in" data-aos-delay="150">
                   2020-11-29
                 </div>
-                <div class="post-abstract">
+                <div class="post-abstract" data-aos="fade-in" data-aos-delay="150">
                   <p>设答案为 <span class="katex"><span class="katex-mathml"><math><semantics><mrow><mn>2</mn><msub><mi>f</mi><mi>n</mi></msub></mrow><annotation encoding="application/x-tex">2f_n</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.8888799999999999em;vertical-align:-0.19444em;"></span><span class="mord">2</span><span class="mord"><span class="mord mathdefault" style="margin-right:0.10764em;">f</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.151392em;"><span style="top:-2.5500000000000003em;margin-left:-0.10764em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathdefault mtight">n</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span></span></span></span>。枚举 <span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>ν</mi><mrow><mo fence="true">(</mo><mi>π</mi><mo fence="true">)</mo></mrow></mrow><annotation encoding="application/x-tex">\nu\left(\pi\right)</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mord mathdefault" style="margin-right:0.06366em;">ν</span><span class="mspace" style="margin-right:0.16666666666666666em;"></span><span class="minner"><span class="mopen delimcenter" style="top:0em;">(</span><span class="mord mathdefault" style="margin-right:0.03588em;">π</span><span class="mclose delimcenter" style="top:0em;">)</span></span></span></span></span>，对 <span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>υ</mi><mrow><mo fence="true">(</mo><mi>π</mi><mo fence="true">)</mo></mrow></mrow><annotation encoding="application/x-tex">\upsilon\left(\pi\right)</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mord mathdefault" style="margin-right:0.03588em;">υ</span><span class="mspace" style="margin-right:0.16666666666666666em;"></span><span class="minner"><span class="mopen delimcenter" style="top:0em;">(</span><span class="mord mathdefault" style="margin-right:0.03588em;">π</span><span class="mclose delimcenter" style="top:0em;">)</span></span></span></span></span> 使用二项式反演求和，可以得到</p>
 
                 </div>

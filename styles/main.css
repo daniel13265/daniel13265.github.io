@@ -492,40 +492,40 @@ a {
   padding: 24px 0;
   color: #adb5bd;
 }
-.post-detail .post-content h1,
-.post-detail .post-content h2,
-.post-detail .post-content h3,
-.post-detail .post-content h4,
-.post-detail .post-content h5,
-.post-detail .post-content h6 {
+.post-content h1,
+.post-content h2,
+.post-content h3,
+.post-content h4,
+.post-content h5,
+.post-content h6 {
   margin: 16px 0;
   color: #343a40;
 }
-.post-detail .post-content a {
+.post-content a {
   color: #4c6ef5;
   border-bottom: 1px dotted #4c6ef5;
   transition: all 0.3s;
 }
-.post-detail .post-content a:hover {
+.post-content a:hover {
   color: #3b5bdb;
   border-bottom: 1px dotted #3b5bdb;
 }
-.post-detail .post-content img {
+.post-content img {
   display: block;
   box-shadow: 0 2px 5px rgba(0, 0, 25, 0.1), 0 5px 75px 1px rgba(0, 0, 50, 0.2);
   max-width: 100%;
   border-radius: 2px;
   margin: 24px auto;
 }
-.post-detail .post-content p {
+.post-content p {
   line-height: 1.725;
   margin-bottom: 24px;
   font-size: 18px;
   color: #495057;
 }
-.post-detail .post-content p code,
-.post-detail .post-content ul code,
-.post-detail .post-content ol code {
+.post-content p code,
+.post-content ul code,
+.post-content ol code {
   padding: 0 3px;
   margin: 0 2px;
   background: #e9ecef;
@@ -536,21 +536,21 @@ a {
   line-height: 1.5;
   color: #868e96;
 }
-.post-detail .post-content blockquote {
+.post-content blockquote {
   background: #e9ecef;
   padding: 16px;
   border-left: 3px solid #7048e8;
   border-radius: 2px;
   margin-bottom: 16px;
 }
-.post-detail .post-content blockquote p {
+.post-content blockquote p {
   color: #868e96;
   margin-bottom: 0;
 }
-.post-detail .post-content pre {
+.post-content pre {
   margin-bottom: 16px;
 }
-.post-detail .post-content pre code {
+.post-content pre code {
   font-size: 14px;
   font-family: 'Source Code Pro', Consolas, Menlo, Monaco, 'Courier New', monospace;
   padding: 2em 1em 1em;
@@ -561,7 +561,7 @@ a {
   color: #f1f3f5;
   display: block;
 }
-.post-detail .post-content pre code:after {
+.post-content pre code:after {
   content: 'CODE';
   display: block;
   position: absolute;
@@ -571,34 +571,34 @@ a {
   font-weight: bold;
   color: #495057;
 }
-.post-detail .post-content table {
+.post-content table {
   border-collapse: collapse;
   margin: 1rem 0;
   display: block;
   overflow-x: auto;
 }
-.post-detail .post-content tr {
+.post-content tr {
   border-top: 1px solid #dfe2e5;
 }
-.post-detail .post-content td,
-.post-detail .post-content th {
+.post-content td,
+.post-content th {
   border: 1px solid #dfe2e5;
   padding: 0.6em 1em;
 }
-.post-detail .post-content ul,
-.post-detail .post-content ol {
+.post-content ul,
+.post-content ol {
   color: var(--c-base-blacklight);
   padding-left: 24px;
   line-height: 1.725;
   margin-bottom: 16px;
 }
-.post-detail .post-content strong {
+.post-content strong {
   font-weight: bolder;
 }
-.post-detail .post-content em {
+.post-content em {
   color: #868e96;
 }
-.post-detail .post-content hr {
+.post-content hr {
   height: 0;
   border: 2px solid #efefef;
   margin-bottom: 24px;

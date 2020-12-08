@@ -659,11 +659,14 @@ a {
 .current-tag a:hover {
   color: #868e96;
 }
-.archives-container {
+.archives-container,
+.tags-container {
   padding-bottom: 32px;
 }
 .archives-container .year,
-.archives-container .tag-title {
+.tags-container .year,
+.archives-container .tag-title,
+.tags-container .tag-title {
   font-size: 16px;
   padding: 24px 0 14px;
   border-bottom: 1px solid #ced4da;
@@ -671,22 +674,30 @@ a {
   color: #343a40;
 }
 .archives-container .year a,
-.archives-container .tag-title a {
+.tags-container .year a,
+.archives-container .tag-title a,
+.tags-container .tag-title a {
   color: #868e96;
   transition: all 0.3s;
 }
 .archives-container .year a:hover,
-.archives-container .tag-title a:hover {
+.tags-container .year a:hover,
+.archives-container .tag-title a:hover,
+.tags-container .tag-title a:hover {
   color: #495057;
 }
-.archives-container .post {
+.archives-container .post,
+.tags-container .post {
   padding-bottom: 16px;
 }
-.archives-container .post .post-title {
+.archives-container .post .post-title,
+.tags-container .post .post-title {
+  padding-left: 18px;
   font-size: 18px;
   transition: all 0.3s;
 }
-.archives-container .post .post-title:hover {
+.archives-container .post .post-title:hover,
+.tags-container .post .post-title:hover {
   color: #212529;
 }
 @media (max-width: 800px) {

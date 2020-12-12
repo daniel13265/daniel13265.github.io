@@ -8,13 +8,19 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
-<link rel="shortcut icon" href="https://daniel13265.github.io/favicon.ico?v=1607409987212">
+<link rel="shortcut icon" href="https://daniel13265.github.io/favicon.ico?v=1607739445542">
 <link rel="stylesheet" href="https://daniel13265.github.io/styles/main.css">
 
 
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.11.1/dist/katex.min.css">
 
 
+
+  
+    <link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css" />
+  
+
+  
 
 
 <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
@@ -33,7 +39,7 @@
   <!-- <div class="top-container" data-aos="fade-right"> -->
     <div class="top-header-container">
       <a class="site-title-container" href="https://daniel13265.github.io">
-        <img src="https://daniel13265.github.io/images/avatar.png?v=1607409987212" class="site-logo">
+        <img src="https://daniel13265.github.io/images/avatar.png?v=1607739445542" class="site-logo">
         <h1 class="site-title">Daniel13265&#39;s Blog</h1>
       </a>
       <div class="menu-btn" @click="menuVisible = !menuVisible">
@@ -119,6 +125,12 @@
               几乎不会用的博客，不定期更新一些奇怪的东西。
             </div>
             
+              
+                <div id="gitalk-container" data-aos="fade-in"></div>
+              
+
+              
+            
 
           </div>
 
@@ -146,6 +158,29 @@ var app = new Vue({
     hljs.initHighlightingOnLoad()
   </script>
 
+
+
+
+  
+    <script src="https://unpkg.com/gitalk/dist/gitalk.min.js"></script>
+    <script>
+
+      var gitalk = new Gitalk({
+        clientID: 'e1dca8a6b31255592e41',
+        clientSecret: '3a104c8b3550cd966625639956fee391e846e588',
+        repo: 'daniel13265.github.io',
+        owner: 'daniel13265',
+        admin: ['daniel13265'],
+        id: (location.pathname).substring(0, 49),      // Ensure uniqueness and length less than 50
+        distractionFreeMode: false  // Facebook-like distraction free mode
+      })
+
+      gitalk.render('gitalk-container')
+
+    </script>
+  
+
+  
 
 
 

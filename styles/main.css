@@ -830,6 +830,7 @@ a {
   }
 }
 .social-container {
+  flex-wrap: wrap;
   text-align: center;
 }
 .social-container .social-link {
@@ -841,9 +842,22 @@ a {
 .social-container .social-link:hover {
   color: #dee2e6;
 }
-.site-footer {
+.level-container {
+  padding-top: 24px;
+  color: #212529;
+  font-size: 12px;
+  margin-bottom: 20px;
   text-align: center;
-  margin: 8px 0 0;
+}
+.level-container a {
+  color: #343a40;
+  transition: all 0.3s;
+}
+.level-container a:hover {
+  color: #495057;
+}
+.level-container .license-link {
+  font-size: 20px;
 }
 
       .sidebar {

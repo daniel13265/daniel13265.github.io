@@ -28,6 +28,7 @@ function loadInsight(config, translation) {
   }
 
   function findAndHighlight(text, matches, maxlen) {
+    text = text.replace(/¶/g, '');
     if (!Array.isArray(matches) || !matches.length || !text) {
       return maxlen ? text.slice(0, maxlen) : text;
     }
